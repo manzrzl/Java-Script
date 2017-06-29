@@ -1,0 +1,21 @@
+<html>
+<head>
+<script type="text/javascript">
+	function validator(){
+		if(document.ManojsForm.TheBox.checked)
+			alert("Its Checked!");
+		else
+			alert("No Its not checked!");
+	}
+</script>
+<body>
+
+
+<form name="ManojsForm">
+	<input type="checkbox" name="TheBox"/>
+	<input type="button" value="press me!" onClick="validator()"/>
+	
+</form>
+</body>
+</head>
+</html>
