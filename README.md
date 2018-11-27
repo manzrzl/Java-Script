@@ -1,2 +1,2 @@
 # Java-Script
-Java Script for noobs
+Java Script for beginners
